@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Naruto Uzumaki",
+        "element": "Wind",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Sasuke Uchiha",
+        "element": "Lightning",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Kakashi Hatake",
+        "element": "Lightning",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Gaara",
+        "element": "Earth",
+        "village": "Hidden Sand"
+    },
+    {
+        "name": "Killer Bee",
+        "element": "Lightning",
+        "village": "Hidden Cloud"
+    },
+    {
+        "name": "Zabuza Momochi",
+        "element": "Water",
+        "village": "Hidden Mist"
+    },
+    {
+        "name": "Onoki",
+        "element": "Earth",
+        "village": "Hidden Stone"
+    },
+    {
+        "name": "Orochimaru",
+        "element": "Earth",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Jiraiya",
+        "element": "Fire",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Tsunade",
+        "element": "Earth",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Itachi Uchiha",
+        "element": "Fire",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Shikamaru Nara",
+        "element": "Earth",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Neji Hyuga",
+        "element": "Wind",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Rock Lee",
+        "element": "None",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Might Guy",
+        "element": "None",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Hinata Hyuga",
+        "element": "Wind",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Temari",
+        "element": "Wind",
+        "village": "Hidden Sand"
+    },
+    {
+        "name": "Kankuro",
+        "element": "Earth",
+        "village": "Hidden Sand"
+    },
+    {
+        "name": "Choji Akimichi",
+        "element": "Earth",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Ino Yamanaka",
+        "element": "Earth",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Sai",
+        "element": "Ink",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Yamato",
+        "element": "Wood",
+        "village": "Hidden Leaf"
+    },
+    {
+        "name": "Haku",
+        "element": "Ice",
+        "village": "Hidden Mist"
+    },
+    {
+        "name": "Kimimaro",
+        "element": "Earth",
+        "village": "Hidden Sound"
+    },
+    {
+        "name": "Deidara",
+        "element": "Earth",
+        "village": "Hidden Stone"
+    },
+    {
+        "name": "Sasori",
+        "element": "Earth",
+        "village": "Hidden Sand"
+    },
+    {
+        "name": "Kisame Hoshigaki",
+        "element": "Water",
+        "village": "Hidden Mist"
+    },
+    {
+        "name": "Konan",
+        "element": "Paper",
+        "village": "Hidden Rain"
+    },
+    {
+        "name": "Nagato",
+        "element": "Fire",
+        "village": "Hidden Rain"
+    },
+    {
+        "name": "Tobi",
+        "element": "Fire",
+        "village": "Hidden Leaf"
+    }
+]
