@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Almohada ergonómica",
+        "price": 45,
+        "category": "hogar"
+    },
+    {
+        "name": "Crema facial hidratante",
+        "price": 30,
+        "category": "belleza"
+    },
+    {
+        "name": "Vitaminas C",
+        "price": 20,
+        "category": "salud"
+    },
+    {
+        "name": "Set de toallas",
+        "price": 55,
+        "category": "hogar"
+    },
+    {
+        "name": "Shampoo nutritivo",
+        "price": 22,
+        "category": "belleza"
+    },
+    {
+        "name": "Termómetro digital",
+        "price": 35,
+        "category": "salud"
+    },
+    {
+        "name": "Difusor de aromas",
+        "price": 60,
+        "category": "hogar"
+    },
+    {
+        "name": "Mascarilla facial",
+        "price": 18,
+        "category": "belleza"
+    },
+    {
+        "name": "Suplemento de magnesio",
+        "price": 40,
+        "category": "salud"
+    },
+    {
+        "name": "Juego de sábanas",
+        "price": 75,
+        "category": "hogar"
+    },
+    {
+        "name": "Maquillaje compacto",
+        "price": 25,
+        "category": "belleza"
+    },
+    {
+        "name": "Bálsamo para labios",
+        "price": 12,
+        "category": "belleza"
+    },
+    {
+        "name": "Cepillo de dientes eléctrico",
+        "price": 65,
+        "category": "salud"
+    },
+    {
+        "name": "Lámpara de escritorio",
+        "price": 48,
+        "category": "hogar"
+    },
+    {
+        "name": "Sérum antiedad",
+        "price": 90,
+        "category": "belleza"
+    },
+    {
+        "name": "Balanza digital",
+        "price": 50,
+        "category": "salud"
+    },
+    {
+        "name": "Taza térmica",
+        "price": 28,
+        "category": "hogar"
+    },
+    {
+        "name": "Aceite esencial de lavanda",
+        "price": 38,
+        "category": "belleza"
+    },
+    {
+        "name": "Pastillas para la garganta",
+        "price": 10,
+        "category": "salud"
+    },
+    {
+        "name": "Organizador de cajones",
+        "price": 33,
+        "category": "hogar"
+    }
+]
