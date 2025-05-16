@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1,
+    "name": "Service 1",
+    "description": "Description for service 1",
+    "price": 99.67,
+    "available": false,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 4.6,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-10-05",
+      "updatedAt": "2025-01-30",
+      "tags": [
+        "Web",
+        "Marketing",
+        "Security"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Service 2",
+    "description": "Description for service 2",
+    "price": 71.42,
+    "available": false,
+    "provider": {
+      "name": "Provider 5",
+      "rating": 4.7,
+      "location": "Australia"
+    },
+    "metadata": {
+      "createdAt": "2023-09-28",
+      "updatedAt": "2024-05-27",
+      "tags": [
+        "Web",
+        "Design",
+        "Marketing"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Service 3",
+    "description": "Description for service 3",
+    "price": 58.36,
+    "available": false,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 3.9,
+      "location": "UK"
+    },
+    "metadata": {
+      "createdAt": "2023-05-16",
+      "updatedAt": "2024-04-22",
+      "tags": [
+        "Security",
+        "Marketing",
+        "Web"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Service 4",
+    "description": "Description for service 4",
+    "price": 322.69,
+    "available": true,
+    "provider": {
+      "name": "Provider 5",
+      "rating": 3.7,
+      "location": "Canada"
+    },
+    "metadata": {
+      "createdAt": "2023-04-15",
+      "updatedAt": "2025-02-09",
+      "tags": [
+        "Marketing",
+        "Design",
+        "Web"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Service 5",
+    "description": "Description for service 5",
+    "price": 466.5,
+    "available": true,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 4.6,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-11-15",
+      "updatedAt": "2024-12-21",
+      "tags": [
+        "Web",
+        "Security",
+        "Design"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Service 6",
+    "description": "Description for service 6",
+    "price": 129.29,
+    "available": false,
+    "provider": {
+      "name": "Provider 5",
+      "rating": 4.6,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-06-04",
+      "updatedAt": "2024-11-11",
+      "tags": [
+        "Hosting",
+        "Seo",
+        "Design"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Service 7",
+    "description": "Description for service 7",
+    "price": 251.61,
+    "available": false,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 4.8,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-02-28",
+      "updatedAt": "2024-11-18",
+      "tags": [
+        "Hosting",
+        "Design",
+        "Seo"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Service 8",
+    "description": "Description for service 8",
+    "price": 491.75,
+    "available": true,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 4.7,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-07-01",
+      "updatedAt": "2024-12-08",
+      "tags": [
+        "Hosting",
+        "Design",
+        "Seo"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Service 9",
+    "description": "Description for service 9",
+    "price": 145.4,
+    "available": true,
+    "provider": {
+      "name": "Provider 5",
+      "rating": 4.1,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-04-15",
+      "updatedAt": "2025-03-23",
+      "tags": [
+        "Seo",
+        "Design",
+        "Web"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Service 10",
+    "description": "Description for service 10",
+    "price": 276.08,
+    "available": false,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 4.4,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-10-28",
+      "updatedAt": "2024-11-03",
+      "tags": [
+        "Security",
+        "Seo",
+        "Web"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "Service 11",
+    "description": "Description for service 11",
+    "price": 216.53,
+    "available": true,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 4.5,
+      "location": "UK"
+    },
+    "metadata": {
+      "createdAt": "2023-06-09",
+      "updatedAt": "2024-05-06",
+      "tags": [
+        "Seo",
+        "Design",
+        "Marketing"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Service 12",
+    "description": "Description for service 12",
+    "price": 298.39,
+    "available": false,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 4.9,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-06-21",
+      "updatedAt": "2025-02-09",
+      "tags": [
+        "Hosting",
+        "Seo",
+        "Security"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Service 13",
+    "description": "Description for service 13",
+    "price": 373.97,
+    "available": true,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 3.5,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-05-16",
+      "updatedAt": "2024-12-03",
+      "tags": [
+        "Marketing",
+        "Hosting",
+        "Seo"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Service 14",
+    "description": "Description for service 14",
+    "price": 238.98,
+    "available": true,
+    "provider": {
+      "name": "Provider 2",
+      "rating": 4.3,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-03-04",
+      "updatedAt": "2024-05-15",
+      "tags": [
+        "Marketing",
+        "Seo",
+        "Security"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Service 15",
+    "description": "Description for service 15",
+    "price": 48.97,
+    "available": true,
+    "provider": {
+      "name": "Provider 2",
+      "rating": 4.1,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-07-12",
+      "updatedAt": "2025-02-13",
+      "tags": [
+        "Design",
+        "Seo",
+        "Web"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "Service 16",
+    "description": "Description for service 16",
+    "price": 299.11,
+    "available": false,
+    "provider": {
+      "name": "Provider 2",
+      "rating": 4.8,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-01-17",
+      "updatedAt": "2024-01-02",
+      "tags": [
+        "Marketing",
+        "Hosting",
+        "Design"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Service 17",
+    "description": "Description for service 17",
+    "price": 187.08,
+    "available": true,
+    "provider": {
+      "name": "Provider 3",
+      "rating": 3.6,
+      "location": "Australia"
+    },
+    "metadata": {
+      "createdAt": "2023-06-16",
+      "updatedAt": "2024-12-22",
+      "tags": [
+        "Security",
+        "Seo",
+        "Web"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Service 18",
+    "description": "Description for service 18",
+    "price": 423.57,
+    "available": true,
+    "provider": {
+      "name": "Provider 5",
+      "rating": 3.8,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-08-03",
+      "updatedAt": "2024-10-11",
+      "tags": [
+        "Security",
+        "Marketing",
+        "Design"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Service 19",
+    "description": "Description for service 19",
+    "price": 115.31,
+    "available": true,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 4.7,
+      "location": "UK"
+    },
+    "metadata": {
+      "createdAt": "2023-03-22",
+      "updatedAt": "2024-10-22",
+      "tags": [
+        "Seo",
+        "Design",
+        "Security"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Service 20",
+    "description": "Description for service 20",
+    "price": 82.47,
+    "available": true,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 4.9,
+      "location": "Australia"
+    },
+    "metadata": {
+      "createdAt": "2023-12-25",
+      "updatedAt": "2024-12-21",
+      "tags": [
+        "Design",
+        "Security",
+        "Marketing"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "Service 21",
+    "description": "Description for service 21",
+    "price": 141.48,
+    "available": true,
+    "provider": {
+      "name": "Provider 2",
+      "rating": 4.0,
+      "location": "Canada"
+    },
+    "metadata": {
+      "createdAt": "2023-06-28",
+      "updatedAt": "2024-07-21",
+      "tags": [
+        "Seo",
+        "Web",
+        "Hosting"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "name": "Service 22",
+    "description": "Description for service 22",
+    "price": 136.06,
+    "available": true,
+    "provider": {
+      "name": "Provider 2",
+      "rating": 4.7,
+      "location": "Australia"
+    },
+    "metadata": {
+      "createdAt": "2023-05-03",
+      "updatedAt": "2024-08-02",
+      "tags": [
+        "Design",
+        "Seo",
+        "Hosting"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "name": "Service 23",
+    "description": "Description for service 23",
+    "price": 278.86,
+    "available": false,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 4.0,
+      "location": "Australia"
+    },
+    "metadata": {
+      "createdAt": "2023-12-31",
+      "updatedAt": "2024-10-04",
+      "tags": [
+        "Web",
+        "Security",
+        "Marketing"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "name": "Service 24",
+    "description": "Description for service 24",
+    "price": 34.08,
+    "available": false,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 3.9,
+      "location": "UK"
+    },
+    "metadata": {
+      "createdAt": "2023-05-31",
+      "updatedAt": "2024-03-27",
+      "tags": [
+        "Security",
+        "Design",
+        "Seo"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "name": "Service 25",
+    "description": "Description for service 25",
+    "price": 138.0,
+    "available": false,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 3.7,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-04-02",
+      "updatedAt": "2024-04-05",
+      "tags": [
+        "Security",
+        "Web",
+        "Seo"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "name": "Service 26",
+    "description": "Description for service 26",
+    "price": 197.2,
+    "available": false,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 4.5,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-07-04",
+      "updatedAt": "2024-11-24",
+      "tags": [
+        "Security",
+        "Design",
+        "Seo"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "name": "Service 27",
+    "description": "Description for service 27",
+    "price": 195.97,
+    "available": false,
+    "provider": {
+      "name": "Provider 4",
+      "rating": 3.7,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-04-09",
+      "updatedAt": "2024-03-03",
+      "tags": [
+        "Design",
+        "Web",
+        "Seo"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "name": "Service 28",
+    "description": "Description for service 28",
+    "price": 418.61,
+    "available": false,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 3.6,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-06-17",
+      "updatedAt": "2025-02-18",
+      "tags": [
+        "Security",
+        "Seo",
+        "Design"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "name": "Service 29",
+    "description": "Description for service 29",
+    "price": 74.39,
+    "available": false,
+    "provider": {
+      "name": "Provider 1",
+      "rating": 4.0,
+      "location": "USA"
+    },
+    "metadata": {
+      "createdAt": "2023-03-20",
+      "updatedAt": "2024-11-08",
+      "tags": [
+        "Marketing",
+        "Seo",
+        "Design"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "name": "Service 30",
+    "description": "Description for service 30",
+    "price": 316.12,
+    "available": false,
+    "provider": {
+      "name": "Provider 3",
+      "rating": 4.5,
+      "location": "Germany"
+    },
+    "metadata": {
+      "createdAt": "2023-08-08",
+      "updatedAt": "2025-04-16",
+      "tags": [
+        "Design",
+        "Marketing",
+        "Seo"
+      ]
+    }
+  }
+]

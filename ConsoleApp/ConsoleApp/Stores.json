@@ -1,0 +1,628 @@
+[
+  {
+    "id": "store_001",
+    "name": "Store 1",
+    "status": "SUSPENDED",
+    "createdAt": "2022-01-31T00:00:00Z",
+    "location": {
+      "address": "101 Main St",
+      "city": "New York",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      }
+    },
+    "owner": {
+      "id": "owner_001",
+      "fullName": "Owner 1",
+      "contact": {
+        "email": "owner1@store.com",
+        "phone": "+1-555-1001"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH",
+        "PAYPAL"
+      ]
+    }
+  },
+  {
+    "id": "store_002",
+    "name": "Store 2",
+    "status": "ACTIVE",
+    "createdAt": "2022-03-02T00:00:00Z",
+    "location": {
+      "address": "102 Main St",
+      "city": "Seattle",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "owner": {
+      "id": "owner_002",
+      "fullName": "Owner 2",
+      "contact": {
+        "email": "owner2@store.com",
+        "phone": "+1-555-1002"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "GOOGLE_PAY"
+      ]
+    }
+  },
+  {
+    "id": "store_003",
+    "name": "Store 3",
+    "status": "CLOSED",
+    "createdAt": "2022-04-01T00:00:00Z",
+    "location": {
+      "address": "103 Main St",
+      "city": "Chicago",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "owner": {
+      "id": "owner_003",
+      "fullName": "Owner 3",
+      "contact": {
+        "email": "owner3@store.com",
+        "phone": "+1-555-1003"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "DEBIT_CARD"
+      ]
+    }
+  },
+  {
+    "id": "store_004",
+    "name": "Store 4",
+    "status": "ACTIVE",
+    "createdAt": "2022-05-01T00:00:00Z",
+    "location": {
+      "address": "104 Main St",
+      "city": "Austin",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "owner": {
+      "id": "owner_004",
+      "fullName": "Owner 4",
+      "contact": {
+        "email": "owner4@store.com",
+        "phone": "+1-555-1004"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "GOOGLE_PAY",
+        "PAYPAL"
+      ]
+    }
+  },
+  {
+    "id": "store_005",
+    "name": "Store 5",
+    "status": "ACTIVE",
+    "createdAt": "2022-05-31T00:00:00Z",
+    "location": {
+      "address": "105 Main St",
+      "city": "Las Vegas",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 36.1699,
+        "longitude": -115.1398
+      }
+    },
+    "owner": {
+      "id": "owner_005",
+      "fullName": "Owner 5",
+      "contact": {
+        "email": "owner5@store.com",
+        "phone": "+1-555-1005"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "DEBIT_CARD"
+      ]
+    }
+  },
+  {
+    "id": "store_006",
+    "name": "Store 6",
+    "status": "UNDER_REVIEW",
+    "createdAt": "2022-06-30T00:00:00Z",
+    "location": {
+      "address": "106 Main St",
+      "city": "Denver",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 39.7392,
+        "longitude": -104.9903
+      }
+    },
+    "owner": {
+      "id": "owner_006",
+      "fullName": "Owner 6",
+      "contact": {
+        "email": "owner6@store.com",
+        "phone": "+1-555-1006"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "CASH"
+      ]
+    }
+  },
+  {
+    "id": "store_007",
+    "name": "Store 7",
+    "status": "CLOSED",
+    "createdAt": "2022-07-30T00:00:00Z",
+    "location": {
+      "address": "107 Main St",
+      "city": "Orlando",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 28.5383,
+        "longitude": -81.3792
+      }
+    },
+    "owner": {
+      "id": "owner_007",
+      "fullName": "Owner 7",
+      "contact": {
+        "email": "owner7@store.com",
+        "phone": "+1-555-1007"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "PAYPAL",
+        "CREDIT_CARD"
+      ]
+    }
+  },
+  {
+    "id": "store_008",
+    "name": "Store 8",
+    "status": "UNDER_REVIEW",
+    "createdAt": "2022-08-29T00:00:00Z",
+    "location": {
+      "address": "108 Main St",
+      "city": "Nashville",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 36.1627,
+        "longitude": -86.7816
+      }
+    },
+    "owner": {
+      "id": "owner_008",
+      "fullName": "Owner 8",
+      "contact": {
+        "email": "owner8@store.com",
+        "phone": "+1-555-1008"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH"
+      ]
+    }
+  },
+  {
+    "id": "store_009",
+    "name": "Store 9",
+    "status": "ACTIVE",
+    "createdAt": "2022-09-28T00:00:00Z",
+    "location": {
+      "address": "109 Main St",
+      "city": "Portland",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 45.5051,
+        "longitude": -122.675
+      }
+    },
+    "owner": {
+      "id": "owner_009",
+      "fullName": "Owner 9",
+      "contact": {
+        "email": "owner9@store.com",
+        "phone": "+1-555-1009"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH",
+        "PAYPAL"
+      ]
+    }
+  },
+  {
+    "id": "store_010",
+    "name": "Store 10",
+    "status": "SUSPENDED",
+    "createdAt": "2022-10-28T00:00:00Z",
+    "location": {
+      "address": "110 Main St",
+      "city": "San Francisco",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "owner": {
+      "id": "owner_010",
+      "fullName": "Owner 10",
+      "contact": {
+        "email": "owner10@store.com",
+        "phone": "+1-555-1010"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "GOOGLE_PAY"
+      ]
+    }
+  },
+  {
+    "id": "store_011",
+    "name": "Store 11",
+    "status": "UNDER_REVIEW",
+    "createdAt": "2022-11-27T00:00:00Z",
+    "location": {
+      "address": "111 Main St",
+      "city": "New York",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      }
+    },
+    "owner": {
+      "id": "owner_011",
+      "fullName": "Owner 11",
+      "contact": {
+        "email": "owner11@store.com",
+        "phone": "+1-555-1011"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "GOOGLE_PAY",
+        "PAYPAL"
+      ]
+    }
+  },
+  {
+    "id": "store_012",
+    "name": "Store 12",
+    "status": "SUSPENDED",
+    "createdAt": "2022-12-27T00:00:00Z",
+    "location": {
+      "address": "112 Main St",
+      "city": "Seattle",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      }
+    },
+    "owner": {
+      "id": "owner_012",
+      "fullName": "Owner 12",
+      "contact": {
+        "email": "owner12@store.com",
+        "phone": "+1-555-1012"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH"
+      ]
+    }
+  },
+  {
+    "id": "store_013",
+    "name": "Store 13",
+    "status": "UNDER_REVIEW",
+    "createdAt": "2023-01-26T00:00:00Z",
+    "location": {
+      "address": "113 Main St",
+      "city": "Chicago",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      }
+    },
+    "owner": {
+      "id": "owner_013",
+      "fullName": "Owner 13",
+      "contact": {
+        "email": "owner13@store.com",
+        "phone": "+1-555-1013"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH"
+      ]
+    }
+  },
+  {
+    "id": "store_014",
+    "name": "Store 14",
+    "status": "SUSPENDED",
+    "createdAt": "2023-02-25T00:00:00Z",
+    "location": {
+      "address": "114 Main St",
+      "city": "Austin",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      }
+    },
+    "owner": {
+      "id": "owner_014",
+      "fullName": "Owner 14",
+      "contact": {
+        "email": "owner14@store.com",
+        "phone": "+1-555-1014"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "DEBIT_CARD"
+      ]
+    }
+  },
+  {
+    "id": "store_015",
+    "name": "Store 15",
+    "status": "SUSPENDED",
+    "createdAt": "2023-03-27T00:00:00Z",
+    "location": {
+      "address": "115 Main St",
+      "city": "Las Vegas",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 36.1699,
+        "longitude": -115.1398
+      }
+    },
+    "owner": {
+      "id": "owner_015",
+      "fullName": "Owner 15",
+      "contact": {
+        "email": "owner15@store.com",
+        "phone": "+1-555-1015"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "APPLE_PAY"
+      ]
+    }
+  },
+  {
+    "id": "store_016",
+    "name": "Store 16",
+    "status": "ACTIVE",
+    "createdAt": "2023-04-26T00:00:00Z",
+    "location": {
+      "address": "116 Main St",
+      "city": "Denver",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 39.7392,
+        "longitude": -104.9903
+      }
+    },
+    "owner": {
+      "id": "owner_016",
+      "fullName": "Owner 16",
+      "contact": {
+        "email": "owner16@store.com",
+        "phone": "+1-555-1016"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH",
+        "PAYPAL"
+      ]
+    }
+  },
+  {
+    "id": "store_017",
+    "name": "Store 17",
+    "status": "UNDER_REVIEW",
+    "createdAt": "2023-05-26T00:00:00Z",
+    "location": {
+      "address": "117 Main St",
+      "city": "Orlando",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 28.5383,
+        "longitude": -81.3792
+      }
+    },
+    "owner": {
+      "id": "owner_017",
+      "fullName": "Owner 17",
+      "contact": {
+        "email": "owner17@store.com",
+        "phone": "+1-555-1017"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH"
+      ]
+    }
+  },
+  {
+    "id": "store_018",
+    "name": "Store 18",
+    "status": "UNDER_REVIEW",
+    "createdAt": "2023-06-25T00:00:00Z",
+    "location": {
+      "address": "118 Main St",
+      "city": "Nashville",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 36.1627,
+        "longitude": -86.7816
+      }
+    },
+    "owner": {
+      "id": "owner_018",
+      "fullName": "Owner 18",
+      "contact": {
+        "email": "owner18@store.com",
+        "phone": "+1-555-1018"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "CASH"
+      ]
+    }
+  },
+  {
+    "id": "store_019",
+    "name": "Store 19",
+    "status": "CLOSED",
+    "createdAt": "2023-07-25T00:00:00Z",
+    "location": {
+      "address": "119 Main St",
+      "city": "Portland",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 45.5051,
+        "longitude": -122.675
+      }
+    },
+    "owner": {
+      "id": "owner_019",
+      "fullName": "Owner 19",
+      "contact": {
+        "email": "owner19@store.com",
+        "phone": "+1-555-1019"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": false,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "DEBIT_CARD",
+        "CASH",
+        "PAYPAL"
+      ]
+    }
+  },
+  {
+    "id": "store_020",
+    "name": "Store 20",
+    "status": "CLOSED",
+    "createdAt": "2023-08-24T00:00:00Z",
+    "location": {
+      "address": "120 Main St",
+      "city": "San Francisco",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "owner": {
+      "id": "owner_020",
+      "fullName": "Owner 20",
+      "contact": {
+        "email": "owner20@store.com",
+        "phone": "+1-555-1020"
+      }
+    },
+    "settings": {
+      "isOpenOnWeekends": true,
+      "timezone": "America/New_York",
+      "supportedPaymentMethods": [
+        "CREDIT_CARD",
+        "DEBIT_CARD"
+      ]
+    }
+  }
+]

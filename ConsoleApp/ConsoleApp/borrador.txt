@@ -1,0 +1,143 @@
+// // See https://aka.ms/new-console-template for more information
+// using System.Text.Json;
+// using System.Text.Json.Serialization;
+// using ConsoleApp.Import;
+// using ConsoleApp.Products;
+
+// Console.WriteLine("Hello, World!");
+
+// ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+// JsonSerializerOptions options = new()
+// {
+//     PropertyNameCaseInsensitive = true,
+// };
+
+// // options.Converters.Add(new JsonStringEnumConverter());
+
+// string pro = ProductData.ProductDataText;
+// Console.WriteLine(pro);
+
+// List<Product> products = JsonSerializer.Deserialize<List<Product>>(ProductData.ProductDataText, options);
+
+// var count = products.Count;
+
+// var isdf = 3; 
+
+
+
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using ConsoleApp.Import;
+using ConsoleApp.metodo;
+using ConsoleApp.Naruto;
+
+// List<NarutoCharacters> characters = JsonSerializer.Deserialize<List<NarutoCharacters>>(NarutoData.NarutoDataText, options);
+
+// var howManyCharacters = characters.Count;
+
+// List<NarutoCharacters> narutoElement = characters.Where(e => e.Element == ElementTypeEnum.Lightning).ToList();
+
+// List<string> narutoName = characters.Select(x => x.Name).ToList();
+// List<string> narutoName = characters.Select(x => x.Name).Where(x => x.Element == ElementTypeEnum.Water).ToList();
+
+// List<string> narutoNameByElement = narutoName.Select(x => x.Name).ToList();
+
+// var narutoNameByElement = characters.Select(x => x.Name).ToList();
+
+// List<NinjaResponseDto> ninjasLightning = characters.Where(x => x.Element == ElementTypeEnum.Earth)
+// .OrderBy(x => x.Name)
+// .Select(x => 
+// new NinjaResponseDto
+// {
+//     Name = x.Name,
+//     Element = x.Element
+// }).ToList();
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        JsonSerializerOptions options = new()
+        {
+            PropertyNameCaseInsensitive = true,
+        };
+
+        options.Converters.Add(new JsonStringEnumConverter());
+
+
+        // Guid raul = Guid.NewGuid();
+
+        // foreach (var perso in characters)
+        // {
+        //     perso.Id = Guid.NewGuid().ToString();
+        // }
+
+
+        // List<string> nameList = characters.Select(x => x.Name).Distinct().OrderBy(x => x).ToList();
+
+        List<NarutoCharacters> characters = JsonSerializer.Deserialize<List<NarutoCharacters>>(NarutoData.NarutoDataText, options);
+
+        // bool elementWater = characters.Any(p => p.Element == ElementTypeEnum.Water);
+
+        // static string Response(bool elementWater)
+        // {
+
+        //     if (elementWater)
+        //     {
+        //         return "Hay un elemento de agua";
+        //     }
+        //     else
+        //     {
+        //         return "No Hay un elemento de agua";
+        //     }
+
+        // }
+
+        // string result = Response(elementWater);
+
+        string resultado = ReponseMethod.Respuesta(characters);
+        // var repusta = result.Respuesta(characters);
+
+        List<NarutoCharacters> deleteDuplicates = characters.DistinctBy(p => new { p.Name, p.Element, p.Village }).ToList();
+
+        List<NarutoCharacters> newListByOne = characters.DistinctBy(p => p.Element).ToList();
+
+        var isdf = 5;
+    }
+
+    
+
+
+    
+}
+
+
+List<NinjaResponseDto> allElements = [];
+
+        List<NinjaResponseDto> characterEarth = characters.Select(x => new NinjaResponseDto()
+        {
+            Name = x.Name,
+            Element = x.Element
+        }).ToList();
+        
+        foreach(var x in characters)
+        {
+            allElements.Add(new NinjaResponseDto()
+             {
+                Name = x.Name,
+                Element = x.Element
+            });
+        }
+        
+
+        var raul = ReceiveCharacters.FilterElement(allElements);
+
+-------------------------------------------------------------------------------------
+        int servicesCount = services.Count;
+
+        List<ServicesDto> foundServices = ReceiveServices.AllServices(services);
+
+        List<ServicesDto> findSeos = SerchTags.FindTags(foundServices);
+
+        List<ServiceWip> findServiceByYears = ReceiveServices.SeviceDate(services);

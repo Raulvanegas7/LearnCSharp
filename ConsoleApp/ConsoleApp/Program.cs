@@ -1,23 +1,39 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using ConsoleApp.DTOs;
 using ConsoleApp.Import;
-using ConsoleApp.Products;
+using ConsoleApp.metodo;
+using ConsoleApp.Stores;
 
-Console.WriteLine("Hello, World!");
-
-JsonSerializerOptions options = new()
+internal class Program
 {
-    PropertyNameCaseInsensitive = true,
-};
 
-// options.Converters.Add(new JsonStringEnumConverter());
+    private static void Main(string[] args)
+    {
+        JsonSerializerOptions options = new()
+        {
+            PropertyNameCaseInsensitive = true,
+        };
 
-string pro = ProductData.ProductDataText;
-Console.WriteLine(pro);
+        options.Converters.Add(new JsonStringEnumConverter());
 
-List<Product> products = JsonSerializer.Deserialize<List<Product>>(ProductData.ProductDataText, options);
+        List<ModelStores> stores = JsonSerializer.Deserialize<List<ModelStores>>(StoreClass.StoreDataText, options);
 
-var count = products.Count;
+        int nufmeroStore = stores.Count;
 
-var isdf = 3;
+        List<ModelStores> tiendas = StoresFilter.ShowStores(stores);
+
+        List<ModelStores> city = StoresFilter.AtChicago(stores);
+
+        List<ModelStores> storeByFecha = StoresFilter.StoreDate(stores);
+
+        List<string> storeOwnerEmail = StoresFilter.findEmails(stores);
+
+        List<StoreDto> storeOwnerInfo = StoresFilter.OwnerInfo(stores);
+
+        var res = 10;
+    }
+
+}
